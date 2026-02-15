@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Dhaka Route</name>
+    <description>Route generated from my program</description>
+    <Placemark>
+      <name>Route Path</name>
+      <description>Generated from C program</description>
+      <LineString>
+        <coordinates>
+          90.412500,23.810300,0
+          90.400000,23.805000,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
