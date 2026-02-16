@@ -179,8 +179,10 @@ void generateKML(int destination) {
 int main() {
     int problem;
     double src_lat, src_lon, dest_lat, dest_lon;
-
-    printf("Enter problem number (1-6): ");
+    printf("only 3 problems has been solved here!!!!!");
+    printf("only 3 problems has been solved here!!!!!");
+    printf("only 3 problems has been solved here!!!!!");
+    printf("Enter problem number (1-3): ");
     scanf("%d", &problem);
 
     printf("Enter source latitude and longitude: ");
