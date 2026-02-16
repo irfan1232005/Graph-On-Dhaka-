@@ -19,7 +19,7 @@ typedef struct {
     int transport; // 0=car,1=metro,2=bikolpo,3=uttara
 } Edge;
 
-// ---------- GLOBAL VARIABLES ----------
+
 #define MAX_NODES 5000
 #define MAX_EDGES 20000
 
@@ -31,7 +31,7 @@ int edge_count = 0;
 
 
 
-//havarsian function
+
 
 double toRad(double degree) {
     return degree * M_PI / 180.0;
@@ -56,7 +56,7 @@ double haversine(double lat1, double lon1,
 
     return R * c;
 }
-//add edge
+
 
 void addEdge(int from, int to,
     double lat1, double lon1,
@@ -138,7 +138,7 @@ void dijkstra(int source, int n, int mode) {
     }
 }
 
-// generateKML()
+
 void generateKML(int destination) {
 
     FILE *fp = fopen("route.kml", "w");
@@ -168,8 +168,6 @@ void generateKML(int destination) {
     fclose(fp);
 }
 
-
-// main()
 
 
 int main() {
